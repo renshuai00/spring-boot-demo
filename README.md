@@ -10,16 +10,16 @@
 http://127.0.0.1:8080/insertUser?name=renshuai3&age=25
 ######
 >>query data By Id
-http://127.0.0.1:8080/queryUserById?id=71 
+http://127.0.0.1:8080/queryUserById?id=74 
 ######
 >>query list
-http://127.0.0.1:8080/queryUserList?pageNum=1&pageSize=3
+http://127.0.0.1:8080/queryUserList?pageNum=1&pageSize=1
 ######
 >>update data
-http://127.0.0.1:8080/updateUser?name=renshuai&age=26&id=71
+http://127.0.0.1:8080/updateUser?name=renshuai&age=26&id=76
 ######
 >>delete data(Logical deletion.set state 0)
-http://127.0.0.1:8080/deleteUser?id=71
+http://127.0.0.1:8080/deleteUser?id=75
 ######
 > mock junit
 ##### com.demo.controller.UserControllerTest
